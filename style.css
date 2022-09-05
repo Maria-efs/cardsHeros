@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    width: 100vw;
+    height: 15vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2{
+    padding: 8px;
+    font-size: 2rem;
+}
+
+.cards-container{
+    width: 10%;
+    height: 40%;
+    text-align: center;
+    border: 1.5px solid red;
+    border-radius: 6px;
+    gap: 20px;
+    padding: 12px;
+}
+
+span{
+    font-size: 1.2rem;
+}
