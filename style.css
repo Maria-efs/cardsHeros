@@ -13,7 +13,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4rem;
+    font-size: 3rem;
     width: 100vw;
     height: 15vh;
 }
@@ -23,8 +23,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 30px;
 }
 
 h2{
@@ -33,13 +32,14 @@ h2{
 }
 
 .cards-container{
-    width: 10%;
+    width: 20%;
     height: 40%;
     text-align: center;
     border: 1.5px solid red;
     border-radius: 6px;
     gap: 20px;
     padding: 12px;
+    flex-wrap: wrap;
 }
 
 span{
