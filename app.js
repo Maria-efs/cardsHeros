@@ -12,7 +12,7 @@ function criarCardsHeros (array){
     const container = document.querySelector('main')
     const div = document.createElement('div')
     div.classList.add('cards-container')
-    const separar = array.split('-')
+    const separar = array.split('-') 
 
     div.innerHTML = `
     <h2>${separar[0]}</h2>
