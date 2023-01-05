@@ -10,9 +10,7 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: 3rem;
     width: 100vw;
     height: 15vh;
@@ -20,6 +18,7 @@ header{
 
 main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -54,13 +53,12 @@ span{
     }
 }
 @media (max-width: 760px){
+    header{
+        font-size: 2rem;
+    }
     main{
-        display: grid;
-        grid-template-columns: 1fr, 1fr;
-        grid-template-rows: 1fr, 1fr, fr;
-        grid-template-areas: 
-        "card card";
-        justify-items: center;
+        display: flex;
+        flex-wrap: wrap;
     }
     .cards-container{
         width: 80%;
